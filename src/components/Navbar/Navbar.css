@@ -1,0 +1,70 @@
+.logo-link {
+    text-decoration: none;  /* Remove underline */
+    color: inherit;         /* Keep the text color as the default */
+}
+
+.logo {
+    font-size: 28px;         /* Increase the font size */
+    font-weight: 7000;        /* Make it extra bold */
+    font-family: 'Poppins', sans-serif; /* Apply a stylish font */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px;     /* Add spacing between letters */
+    color: #2084f7;          /* Set default color to dark blue */
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth effect */
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #4295f5; /* Change color on hover */
+    transform: scale(1.01); /* Slightly enlarge on hover */
+}
+
+  
+  /* Navigation Links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    padding: 10px 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #585858;
+  }
+  
+  .nav-links a:hover {
+    color: #ff6347; /* Highlight color for links */
+  }
+  
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    background-color: #2052f7;
+    color: rgb(255, 236, 236);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color:#147bf0;
+}
